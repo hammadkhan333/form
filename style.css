@@ -60,7 +60,7 @@ body{
     background: linear-gradient(45deg, #0ef, #c800ff);
 }
 .footer{
-    color: #eee;
+    text-emphasis-color: white;
     margin-top: 30px;
     letter-spacing: 0.5px;
     font-size: 14px;
