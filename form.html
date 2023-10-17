@@ -9,8 +9,10 @@
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
             text-align: center;
-            margin: 0% auto;
-            width: auto;
+            
+        }
+        .centertext {
+            text-align: center;
         }
 
         .container {
@@ -50,8 +52,9 @@
     </style>
 </head>
 <body>
+    <div class="centertext">
     <h2>Iqra National University Admission Form</h2>
-    <div class="container">
+    <div class="container" >
         <form action="submit_admission.php" method="POST">
             <label for="first_name">First Name:</label>
             <input type="text" id="first_name" name="first_name" placeholder="First name" required>
@@ -81,6 +84,7 @@
 
             <input type="submit" value="Submit">
         </form>
+    </div>
     </div>
 </body>
 </html>
